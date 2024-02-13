@@ -11,8 +11,6 @@ import NotFound from "./pages/NotFound";
 
 //Routes es un conjunto de rutas
 //Route path donde se va a ir y el elemento que se va a mostar
-//Primer Route sera el que se muestra siempre y el segundo nivel el resto de rutas
-//index indica cuando se carge el componente principal layout se carge el elemento Home
 function App() {
   return (
     <Routes>
@@ -24,10 +22,9 @@ function App() {
       </Route>
       <Route path="*" element={<NotFound />} />
 
-      {/* Indica que puedo definir otras estructura de rutas por ejemplo /account/profile
-        <Route path="/account" element={<AccountLayout />}>
-          <Route path="profile" element={<Profile />} />
-          <Route path="edit" element={<ProfileEdit />} />
+      {/* <Route path="/account" element={<AccountLayout />}>
+        <Route path="profile" element={<Profile />} />
+        <Route path="edit" element={<ProfileEdit />} />
       </Route> */}
     </Routes>
   )

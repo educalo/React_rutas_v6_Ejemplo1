@@ -1,5 +1,4 @@
 1.- ver la web https://reactrouter.com/en/main
-2.- npm install
 2.- para arrancarlo npm run dev
 
 
