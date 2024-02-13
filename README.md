@@ -1,5 +1,6 @@
 # Sin vite, con react-scripts
 npm install
+
 npm start
 
 # React Router v6 - Tutorial completo
