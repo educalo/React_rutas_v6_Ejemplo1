@@ -1,3 +1,7 @@
+# Sin vite, con react-scripts
+npm install
+npm start
+
 # React Router v6 - Tutorial completo
 
 En este repositorio te dejo el código base de una aplicación desarrollada React y [React Router](https://reactrouter.com/) en su versión 6.
