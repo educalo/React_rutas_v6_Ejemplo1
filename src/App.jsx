@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 //Route path donde se va a ir y el elemento que se va a mostar
 //Primer Route sera el que se muestra siempre y el segundo nivel el resto de rutas
 //index indica cuando se carge el componente principal layout se carge el elemento Home
+//"products/*"" me permite tener varias rutas dentro de esta ruta products
 function App() {
   return (
     <Routes>

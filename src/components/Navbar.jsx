@@ -4,15 +4,21 @@ import { Link, useNavigate } from 'react-router-dom';
 const Navbar = () => {
    const navigate = useNavigate();
 
+   //para captura el texto introducido en el input de la búsqueda
+   //mando con navigate a la ruta que quiero ir, estoy haciendo redirecciones
    const [keyword, setKeyword] = useState("");
 
    const handleSubmit = e => {
+      //para no refrescar la página
       e.preventDefault();
+      //cambio de estado keyword
       setKeyword("");
+      //borrar el formulario
       e.target.reset();
       navigate(`/search?keyword=${keyword}`);
    }
    //componente link para establecer enlaces
+   //establezco un formulario para las busquedas
    return (
       <>
          <hr />

@@ -9,3 +9,7 @@
 
 5.- Defino la pagina Products.jsx
 6.- Defino el componente Narbar.jsx
+
+7.- Estoy utilizano el json dummyJSON, https://dummyjson.com/
+
+8.- Para instalar axios es npm i axios
