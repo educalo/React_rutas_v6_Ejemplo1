@@ -1,5 +1,6 @@
 1.- ver la web https://reactrouter.com/en/main
-2.- para arrancarlo npm run dev
+2.- npm install
+2.- para arrancarlo npm start
 
 
 3.- Crea el componentes Home.jsx y AboutUS.jsx dentro de src/pages
@@ -8,3 +9,7 @@
 
 5.- Defino la pagina Products.jsx
 6.- Defino el componente Narbar.jsx
+
+7.- Estoy utilizano el json dummyJSON, https://dummyjson.com/
+
+8.- Para instalar axios es npm i axios
